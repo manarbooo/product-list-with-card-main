@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Product list with cart</title>
+
+ 
+</head>
+<body>
+  <div class="confirmDivContainer">
+    <div class="confirmDiv">
+      <img src="assets/images/icon-order-confirmed.svg" class="iconConfirm">
+      <h1 class="confirmHeading">Order Confirmed</h1>
+      <p class="confirmDesc">We hope you enjoy your food!</p>
+      <section class="confirmOrders">
+        
+      </section>
+      <button class="startNew">Start New Order</button>
+    </div>
+  </div>
+  
+  <main class="container">
+    <h1 class="heading">Desserts</h1>
+    <section class="innerContainer">
+      <section class="gridContainer">
+        <div class="dessertCard one">
+          <figure class="imgContainer one">
+            <img class="img one" src="assets/images/image-waffle-desktop.jpg">
+          </figure>
+          <button class="btn one" data-category="Waffle">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName one">Waffle</span>
+            <p class="desc one">Waffle with Berries</p>
+            <span class="price one">$6.50</span>
+          </article>
+        </div>
+
+        <div class="dessertCard two">
+          <figure class="imgContainer two">
+            <img class="img two" src="assets/images/image-creme-brulee-desktop.jpg">
+          </figure>
+          <button class="btn two" data-category="Crème Brûlée">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName two">Crème Brûlée</span>
+            <p class="desc two">Vanilla Bean Crème Brûlée</p>
+            <span class="price two">$7.00</span>
+          </article>
+        </div>
+
+        <div class="dessertCard three">
+          <figure class="imgContainer three">
+            <img class="img three" src="assets/images/image-macaron-desktop.jpg">
+          </figure>
+          <button class="btn three" data-category="Macaron"> 
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName three">Macaron</span>
+            <p class="desc three">Macaron Mix of Five</p>
+            <span class="price three">$8.00</span>
+          </article>
+        </div>
+
+        <div class="dessertCard four">
+          <figure class="imgContainer four">
+            <img class="img four" src="assets/images/image-tiramisu-desktop.jpg">
+          </figure>
+          <button class="btn four" data-category="Tiramisu">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName four">Tiramisu</span>
+            <p class="desc four">Classic Tiramisu</p>
+            <span class="price four">$5.50</span>
+          </article>
+        </div>
+
+
+
+        <div class="dessertCard five">
+          <figure class="imgContainer five">
+            <img class="img five" src="assets/images/image-baklava-desktop.jpg">
+          </figure>
+          <button class="btn five" data-category="Baklava">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName five">Baklava</span>
+            <p class="desc five">Pistachio Baklava</p>
+            <span class="price five">$4.00</span>
+          </article>
+        </div>
+
+
+        <div class="dessertCard six">
+          <figure class="imgContainer six">
+            <img class="img six" src="assets/images/image-meringue-desktop.jpg">
+          </figure>
+          <button class="btn six" data-category="Pie">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName six">Pie</span>
+            <p class="desc six">Lemon Meringue Pie</p>
+            <span class="price six">$5.00</span>
+          </article>
+        </div>
+
+
+        <div class="dessertCard seven">
+          <figure class="imgContainer seven">
+            <img class="img seven" src="assets/images/image-cake-desktop.jpg">
+          </figure>
+          <button class="btn seven" data-category="Cake">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName seven">Cake</span>
+            <p class="desc seven">Red Velvet Cake</p>
+            <span class="price seven">$4.50</span>
+          </article>
+        </div>
+
+
+        <div class="dessertCard eight">
+          <figure class="imgContainer eight">
+            <img class="img eight" src="assets/images/image-brownie-desktop.jpg">
+          </figure>
+          <button class="btn eight" data-category="Brownie">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName eight">Brownie</span>
+            <p class="desc eight">Salted Caramel Brownie</p>
+            <span class="price eight">$4.50</span>
+          </article>
+        </div>
+
+
+        <div class="dessertCard nine">
+          <figure class="imgContainer nine">
+            <img class="img nine" src="assets/images/image-panna-cotta-desktop.jpg">
+          </figure>
+          <button class="btn nine" data-category="Panna Cotta">
+            <img class="shopIcon" src="assets/images/icon-add-to-cart.svg">
+            Add to cart
+          </button>
+          <article class="textContent">
+            <span class="dessertName nine">Panna Cotta</span>
+            <p class="desc nine">Vanilla Panna Cotta</p>
+            <span class="price nine">$6.50</span>
+          </article>
+        </div>
+        
+
+      </section>
+
+
+      <div class="cartDiv">
+        <h2 class="cartHeading">Your Cart <span class="headingSpan">(0)</span></h2>
+        <div class="mainImg"></div>
+        <p class="emptyDesc">Your added items will appear here</p>
+       
+        <div class="orders">
+
+        </div>
+
+        <p class="totalOrder invisible">Order Total </p>
+        <div class="neutral invisible">
+          <img class="neutralIcon" src="assets/images/icon-carbon-neutral.svg">
+          <p class="neutralDesc">This is a <span>carbon-neutral</span> delivery</p>
+        </div>
+        <button class="confirmBtn invisible">Confirm Order</button>
+          
+      </div>
+
+
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!--
+<div class="order">
+            <article class="orderText">
+              <p class="orderName">Classic Tiramisu</p>
+              <p class="quanprice"><span class="quantity">x1 </span> <span class="pricePer1"> @$5.50 </span> <span class="pricePerTo"> $5.50 </span></p>
+            </article>
+            <img class="removeIcon" src="assets/images/icon-remove-item.svg">
+
+          </div>
+
+       
+          </div>
+      <p class="totalOrder">Order Total <span class="tPrice">$46.50</span></p>
+      <div class="neutral">
+        <img class="neutralIcon" src="assets/images/icon-carbon-neutral.svg">
+        <p class="neutralDesc">This is a <span>carbon-neutral</span> delivery</p>
+      </div>
+      <button class="confirmBtn">Confirm Order</button>
+-->
